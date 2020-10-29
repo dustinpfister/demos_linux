@@ -3,7 +3,8 @@ let http = require('http'),
 fs = require('fs'),
 path = require('path'),
 
-// use the $PORT enviornment variable if it is there
+// use the $PORT Environment Variable if it is there
+// $ PORT=8080;export PORT
 port = process.env.PORT || process.argv[3] || 8888;
 
 let server = http.createServer((req, res) => {
