@@ -4,9 +4,11 @@ node_math(){
     echo $(node "math.js" $1 $2 $3)
 }
 
-pi=$(node_math "PI")
-pi2=$(node_math "eval" "$pi*2")
-atan2=$(node_math "atan2" "50" "0")
-a=$(node_math "eval" "($atan2/$pi2*360).toFixed(2)")
-echo "$pi $pi2 $atan2"
-echo $a
+get_angle(){
+    x=$1
+    y=$2
+    echo $(node_math "eval" "Math.floor(Math.atan2($y,$x)/(Math.PI*2)*360)")
+}
+
+node_math "pow" "4" "2"
+get_angle 0 50
