@@ -15,9 +15,12 @@ math_sqrt(){
 
 # math_dist x1 y1 x2 y2
 math_dist(){
-    local a=$(($1 ** $2))
-    echo $n
+    local a=$(($1 - $3))
+    local b=$(($2 - $4))
+    local c=$(math_pow $a 2)
+    local d=$(math_pow $b 2)
+    local e=$(($c + $d))
+    echo $(math_sqrt $e)
 }
 
-echo $(math_pow 2 4)
-echo $(math_sqrt 25)
+echo $(math_dist 10 5 20 5)
