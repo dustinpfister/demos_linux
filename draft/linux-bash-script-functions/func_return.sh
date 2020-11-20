@@ -9,5 +9,6 @@ math_pow(){
 }
  
 a=$(math_pow 2 4)
-echo $a
+let "b = $a - 100"
+echo $b
 echo $n
