@@ -13,6 +13,11 @@ math_sqrt(){
     echo $(awk "BEGIN {printf \"%.30f\n\", sqrt($1)}")
 }
 
+## math_round n
+math_round(){
+    echo $(awk "BEGIN { rounded = sprintf(\"%.0f\", $1); print rounded }")
+}
+
 # math_dist x1 y1 x2 y2
 math_dist(){
     local a=$(($1 - $3))
@@ -23,4 +28,6 @@ math_dist(){
     echo $(math_sqrt $e)
 }
 
-echo $(math_dist 10 5 20 5)
+d=$(math_dist 10 5 20 5)
+dr=$(math_round $d)
+echo $dr 
