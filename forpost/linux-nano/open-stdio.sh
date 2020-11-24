@@ -1,0 +1,1 @@
+echo "this is some text" | nano -
