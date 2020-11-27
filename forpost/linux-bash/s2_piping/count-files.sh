@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p ~ | grep -v / | wc -l
+ls -ap ~ | grep -v / | wc -l
