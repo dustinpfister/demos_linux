@@ -1,0 +1,4 @@
+total 4
+-rw-r--r-- 1 pi pi  0 Nov 28 11:43 ls.log
+-rwxr-xr-x 1 pi pi 49 Nov 28 11:42 stderr_stdout.sh
+ls: cannot access '%': No such file or directory
