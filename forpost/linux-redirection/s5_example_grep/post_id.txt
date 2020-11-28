@@ -1,0 +1,2 @@
+post0.md:id: 0
+post1.md:id: 1
