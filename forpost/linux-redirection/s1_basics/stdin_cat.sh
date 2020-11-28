@@ -1,2 +1,2 @@
 #!/bin/bash
-cat | grep -e ".js$" | xargs echo "A javaScript file: $1"
+cat | grep -e ".js$" | xargs echo "javaScript files: $1"
