@@ -1,0 +1,1 @@
+grep '^id: [0-9]*' *.md > ~/post_id.txt
