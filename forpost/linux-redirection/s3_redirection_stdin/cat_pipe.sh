@@ -1,0 +1,1 @@
+cat < ./hello.txt | base32
