@@ -1,2 +1,2 @@
 #!/bin/bash
-./git-all-base.sh push 
+~/bash/git/git-all-base.sh push 

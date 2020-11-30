@@ -1,2 +1,2 @@
 #!/bin/bash
-./git-all-base.sh pull
+~/bash/git/git-all-base.sh pull
