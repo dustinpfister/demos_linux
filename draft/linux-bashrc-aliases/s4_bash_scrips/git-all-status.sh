@@ -1,2 +1,2 @@
 #!/bin/bash
-./git-all.sh status $(./git-folder.sh)
+./git-all.sh $(./git-folder.sh) status 
