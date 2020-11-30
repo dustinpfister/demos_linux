@@ -1,0 +1,24 @@
+# list dirs
+alias ldir='ls -p | grep -e / | cut -d / -f 1'
+alias ldira='ls -ap | grep -e / | cut -d / -f 1'
+
+# some more ls aliases
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
+
+# space  ( free disk space )
+alias space='df -h /'
+
+# git
+alias status='git status'
+alias pull='git pull'
+alias push='git push'
+alias gitl='git log -n 100 --format="%H : %s"'
+alias pullall='~/bash/git-pull-all.sh'
+
+# grunt
+alias gc='grunt commit'
+
+# start fresh-by-cat
+alias fbc='nohup node ~/Documents/github_dustinpfister/blog_posts/scripts/apps/fresh-by-cat/app.js 8000 > /dev/null &'
