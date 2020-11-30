@@ -1,2 +1,2 @@
 #!/bin/bash
-./git-all.sh $(./git-folder.sh) push 
+./git-all-base.sh push 
