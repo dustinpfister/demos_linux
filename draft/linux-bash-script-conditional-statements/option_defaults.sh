@@ -1,6 +1,9 @@
 #!/bin/bash
 
-parse_opt(){
+# give a positional argument for first argument,
+# and a default value for the second, the function
+# will echo back the argument or default value
+opt_default(){
   result=$1;
   default=$2;
   if [ -z $result ]; then
