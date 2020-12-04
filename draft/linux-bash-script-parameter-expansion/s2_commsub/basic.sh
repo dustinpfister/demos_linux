@@ -2,4 +2,4 @@
 
 userName=$( whoami )
 
-echo "The current user is ${username}"
+echo "The current user is \"${userName}\""
