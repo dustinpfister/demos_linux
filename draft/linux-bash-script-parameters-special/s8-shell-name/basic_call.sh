@@ -1,2 +1,2 @@
 #!/bin/bash
-./basic.sh
+bash -c ./basic.sh

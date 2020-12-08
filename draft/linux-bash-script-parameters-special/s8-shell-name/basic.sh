@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "pid: $$"
-echo "background pid: $!"
+echo "shell name: $0"
