@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./basic.sh foo bar baz
+./count.sh foo bar baz
