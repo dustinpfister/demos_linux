@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "positionals: $*"
+echo "positionals: $@"
