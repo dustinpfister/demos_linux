@@ -31,5 +31,4 @@ fi
 # in wc mode give a word count
 if [ $mode = "wc" ]; then
    catFiles | wc -w
-   echo ""
 fi
