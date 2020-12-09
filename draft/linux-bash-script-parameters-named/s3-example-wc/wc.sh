@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ## defaults
-target="./project-folder"
-mode="read"
+target="./text-collection"
+mode="cat"
 
 while getopts ":t:m:" opt; do
   case $opt in
@@ -15,5 +15,6 @@ while getopts ":t:m:" opt; do
   esac
 done
 
-echo " target folder: ${target}"
-echo " mode: ${mode}"
+if [ $mode = "cat" ]; then
+   eval "ls ${target}/*.txt"
+fi
