@@ -2,14 +2,11 @@
 
 ## defaults
 source="./text-collection"
-target="./text-collection-b64"
 mode="cat"
 
-while getopts ":t:m:" opt; do
+while getopts ":s:m:" opt; do
   case $opt in
     s) source="$OPTARG"
-    ;;
-    t) target="$OPTARG"
     ;;
     m) mode="$OPTARG"
     ;;
@@ -27,5 +24,12 @@ catFiles(){
 # to the standard output
 if [ $mode = "cat" ]; then
    catFiles
+   echo ""
+fi
+
+# mode: 'wc'
+# in wc mode give a word count
+if [ $mode = "wc" ]; then
+   catFiles | wc -w
    echo ""
 fi
