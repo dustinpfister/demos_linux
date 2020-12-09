@@ -1,0 +1,5 @@
+# linux-bash-script-parameters-positional
+
+There are a lot of things to cover when it comes to parameters and bash actually. There are the parameters that might be based to the bash command when it is called, then there are special parameters that will do things like give the number of positional parameters that wherer bassed to the command that was called with bash. Speaking of positional parameters there are ways of parsing positional parameters into named parameters or options if you prefer.
+
+So I have wrote a post on bash script parameters in which I touch base on positional parameters, however I think that that post should be edited into a post on all the various topics surounding paramerets in general in bash. I will then want a post just on positional parameters alone, and thus I have started thi folder for that.
