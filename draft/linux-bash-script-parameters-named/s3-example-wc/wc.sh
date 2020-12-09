@@ -15,6 +15,11 @@ while getopts ":t:m:" opt; do
   esac
 done
 
+catFiles(){
+  echo -n $(eval "ls ${target}/*.txt | xargs cat")
+}
+
 if [ $mode = "cat" ]; then
-   eval "ls ${target}/*.txt"
+   catFiles
+   echo ""
 fi
