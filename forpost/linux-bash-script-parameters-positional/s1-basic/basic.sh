@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello $1"
+echo "$0 - $1 - $2"
