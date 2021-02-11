@@ -1,0 +1,1 @@
+bash -ci "type -p bash"
