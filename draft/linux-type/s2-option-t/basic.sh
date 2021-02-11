@@ -1,3 +1,3 @@
-bash -ci "type -t ls"
-
+#!/bin/bash
+bash -ci "type -t cd"
 bash -ci "type -t foo"
