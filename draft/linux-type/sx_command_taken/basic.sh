@@ -1,0 +1,1 @@
+bash -ci "type -t foo" &> /dev/null; echo $?
