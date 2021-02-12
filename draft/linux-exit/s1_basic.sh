@@ -1,3 +1,3 @@
 #!/bin/bash
 
-exit 0
+bash -ci "exit 0" &> /dev/null; echo $?
