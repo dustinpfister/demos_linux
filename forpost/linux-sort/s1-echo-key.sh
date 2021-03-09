@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo -e "2 \n7 \n8 \n3 \n5 \n9 \n1 \n6 \n0 \n4" | sort
+echo -e "0 42 \n1 17 \n2 9 \n3 100" | sort -k 2
