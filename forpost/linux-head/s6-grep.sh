@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "one\n2\nthree\n4" | grep -E '[0-9]'
+echo -e "one bar\n2 foo\nthree foobar\n4 baz" | grep -E '[0-9]'
