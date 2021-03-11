@@ -1,14 +1,11 @@
 #!/bin/bash
 
-today=$(date +"%A")
-case $today in
-  "Monday")
-    echo "It is ${today}, oh boy." 
-    ;;
-  "Friday")
-    echo "Today is ${today}, Hell Yeah!" 
+bit=$1
+case $bit in
+  "1")
+    echo "True!" 
     ;;
   *)
-    echo "Today is ${today}"
+    echo "False"
     ;;
 esac
