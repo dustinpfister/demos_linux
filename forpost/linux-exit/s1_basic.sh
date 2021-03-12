@@ -1,3 +1,3 @@
 #!/bin/bash
 
-bash -ci "exit 0" &> /dev/null; echo $?
+bash -ci "exit 1" &> /dev/null; echo $?
