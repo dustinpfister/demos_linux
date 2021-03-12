@@ -5,7 +5,7 @@ exitWith(){
     bash -ci "exit ${code}" &> /dev/null
 }
 
-if [ $1 == "foo" ];then
+if [ "$1" == "foo" ];then
     exitWith 0
 else
     exitWith 1
