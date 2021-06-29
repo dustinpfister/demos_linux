@@ -1,5 +1,4 @@
 
-mkdir -p "./text"
 mkdir -p "./text/foo"
 
 echo -n "foobar" > "./text/foo/foo1.txt"
