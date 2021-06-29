@@ -2,4 +2,4 @@
 
 echo -n "foobar" > foo.txt
 
-cp foo.txt "./copy/foo_copy.txt"
+cp foo.txt "./foo_copy.txt"
