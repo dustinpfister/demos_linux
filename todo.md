@@ -7,7 +7,7 @@ The focus for this week will be to just write a few quick posts on some addition
 ### x.1 - ( done 06/28/21 ) linux-top
 * (done) this command is a must when it comes to checkout out what the current status is with cpu load per process.
 
-### x.2 - linux-cp
+### x.2 - ( done 06/29/21 ) linux-cp
 * (done) at least one if not more demos on the cp command
 
 ### x.3 - linux-mkdir
