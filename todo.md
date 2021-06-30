@@ -14,10 +14,10 @@ The focus for this week will be to just write a few quick posts on some addition
 ### x.2 - ( done 06/29/21 ) linux-cp
 * (done) at least one if not more demos on the cp command
 
-### x.3 - ( for 06/30/21 ) linux-mkdir
-* an s1 one basic example of mkdir
-* an s2 example of mkdir -p
-* an s3 example on mkdir -m
+### x.3 - ( done 06/30/21 ) linux-mkdir
+* (done) an s1 one basic example of mkdir
+* (done) an s2 example of mkdir -p
+* (done) an s3 example on mkdir -m
 
 ### x.4 - ( for 07/01/21 ) linux-date
 * just a basic use case example
