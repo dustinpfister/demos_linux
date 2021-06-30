@@ -13,6 +13,7 @@ The focus for this week will be to just write a few quick posts on some addition
 ### x.3 - ( for 06/30/21 ) linux-mkdir
 * an s1 one basic example of mkdir
 * an s2 example of mkdir -p
+* an s3 example on mkdir -m
 
 ### x.4 - ( for 07/01/21 ) linux-date
 * just a basic use case example
