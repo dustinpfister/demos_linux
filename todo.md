@@ -25,7 +25,7 @@ The focus for this week will be to just write a few quick posts on some addition
 * have a -d option example
 
 ### x.5 - ( for 07/02/21 ) linux-awk
-* start out with just a basic s1 type example of awk
+* (done) start out with just a basic s1 type example of awk
 
 
 
@@ -40,9 +40,10 @@ There is writing even more on various basic commands that I have not wrote posts
 * have a rm -d demo
 * have a rm -rd demo
 
-
-
-
+### x.2 - linux-pwd
+* basic s1 example of pwd
+* s2 example can be using cd to change the pwd
+* s3 section would have to be on getting pwd in nodejs, and python.
 
 ## xx/xx/xx to xx/xx/xx - More posts on raspberry pi os
 
