@@ -24,3 +24,8 @@ The focus for this week will be to just write a few quick posts on some addition
 
 ## xx/xx/xx to xx/xx/xx
 
+### x.1 - linux-rm
+* have a basic demo with no options
+* have a rm -d demo
+* have a rm -rd demo
+
