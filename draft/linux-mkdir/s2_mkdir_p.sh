@@ -5,3 +5,7 @@ mkdir "foo"
 
 mkdir -p "foo"
 mkdir -p "foo/bar/baz"
+
+ls -d f*
+
+rm -rd "foo"
