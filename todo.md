@@ -20,7 +20,9 @@ The focus for this week will be to just write a few quick posts on some addition
 * (done) an s3 example on mkdir -m
 
 ### x.4 - ( for 07/01/21 ) linux-date
-* just a basic use case example
+* (done) have an s1 just a basic use case example
+* (done) have an s2 example on the format options
+* have a -d option example
 
 ### x.5 - ( for 07/02/21 ) linux-awk
 * start out with just a basic s1 type example of awk
