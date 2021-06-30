@@ -9,3 +9,6 @@ ls -ld foo
 
 mkdir -p -m 777 "bar"
 ls -ld bar
+
+rm -rd "foo"
+rm -rd "bar"
