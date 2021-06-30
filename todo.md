@@ -10,17 +10,16 @@ The focus for this week will be to just write a few quick posts on some addition
 ### x.2 - ( done 06/29/21 ) linux-cp
 * (done) at least one if not more demos on the cp command
 
-### x.3 - linux-mkdir
+### x.3 - ( for 06/30/21 ) linux-mkdir
 * an s1 one basic example of mkdir
+* an s2 example of mkdir -p
 
-### x.4 - linux-date
+### x.4 - ( for 07/01/21 ) linux-date
 * just a basic use case example
 
-### x.5 - linux-awk
-* just start with a hello world of it
+### x.5 - ( for 07/02/21 ) linux-awk
+* start out with just a basic s1 type example of awk
 
 
 ## xx/xx/xx to xx/xx/xx
 
-### x.1 - linux-awk
-* just a basic example for now
