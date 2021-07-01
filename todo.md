@@ -6,7 +6,7 @@
 
 ## 06/28/21 to 07/02/21 - More posts on commands
 
-The focus for this week will be to just write a few quick posts on some additional basic linux commands that I have not got around to just yet. This means looking into what I have not wrote a post about in the main bin folder thus far. If I have wrote a post on the linux echo command then I should also write posts on commands like linux cp, linux mv, and so forth. However this might be the last week for these kinds of posts as I need to find out what the long term direction is with this collection of content.
+The focus for this week will be to just write a few quick posts on some additional basic linux commands that I have not got around to just yet. This means looking into what I have not wrote a post about in the main bin folder thus far. If I have wrote a post on the linux echo command then I should also write posts on commands like linux cp, linux date, and so forth. However this might be the last week for these kinds of posts as I need to find out what the long term direction is with this collection of content.
 
 ### x.1 - ( done 06/28/21 ) linux-top
 * (done) this command is a must when it comes to checkout out what the current status is with cpu load per process.
@@ -45,9 +45,13 @@ There is writing even more on various basic commands that I have not wrote posts
 * s2 example can be using cd to change the pwd
 * s3 section would have to be on getting pwd in nodejs, and python.
 
+
+
+
+
 ## xx/xx/xx to xx/xx/xx - More posts on raspberry pi os
 
-I like raspberry pi boards, everything about them is just plain awsome. I wrote a few posts on raspberry pi os in general rather than various things that might be more or less the same on most Linux systems. However it might be a good idea to continue to expand this kind of sub collection of posts on things that might just be centeral to raspberry pi os.
+I like raspberry pi boards, everything about them is just plain awesome. I wrote a few posts on raspberry pi os in general rather than various things that might be more or less the same on most Linux systems. However it might be a good idea to continue to expand this kind of sub collection of posts on things that might just be central to raspberry pi os.
 
 ### x.1 - linux-raspberry-pi-os-raspi-config
 
