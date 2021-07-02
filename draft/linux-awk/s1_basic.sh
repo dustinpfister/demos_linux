@@ -1,1 +1,1 @@
-echo -en "text output \nsample text \n" | awk '/output/ {print}'
+echo -en "text output \nsample text \n" | awk '{print $1}'
