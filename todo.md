@@ -8,12 +8,12 @@
 
 There is writing even more on various basic commands that I have not wrote posts on just yet.
 
-### x.1 - linux-rm
-* have a basic demo with no options
-* have a rm -d demo
-* have a rm -rd demo
+### ( for 07/05/2021 ) x.1 - linux-rm
+* s1 - have a basic demo with no options
+* s2 - have a rm -d demo
+* s3 - have a rm -rd demo
 
-### x.2 - linux-pwd
+### ( for 07/06/2021 ) x.2 - linux-pwd
 * basic s1 example of pwd
 * s2 example can be using cd to change the pwd
 * s3 section would have to be on getting pwd in nodejs, and python.
