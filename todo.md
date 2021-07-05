@@ -8,10 +8,10 @@
 
 There is writing even more on various basic commands that I have not wrote posts on just yet.
 
-### ( for 07/05/2021 ) x.1 - linux-rm
+### ( done 07/05/2021 ) x.1 - linux-rm
 * (done) s1 - have a basic demo with no options
-* s2 - have a rm -d demo
-* s3 - have a rm -rd demo
+* (done) s2 - have a rm -d demo
+* (done) s3 - have a rm -rd demo
 
 ### ( for 07/06/2021 ) x.2 - linux-pwd
 * basic s1 example of pwd
