@@ -1,4 +1,4 @@
-who
+whoami
 #pi
 cd ~
 pwd
