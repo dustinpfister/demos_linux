@@ -1,1 +1,1 @@
-pwd | grep -q "/home"; echo $?
+pwd | grep -q "^/home"; echo $?
