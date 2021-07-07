@@ -1,8 +1,8 @@
 #!/bin/bash
-n=1
-while [ $n -lt 5 ];do
-    echo "The value of n is now $n"
-    sleep 2s
+i=1
+while [ $i -lt 10 ];do
+    echo "$i"
+    sleep 3
     echo " "
-    ((n=$n+1))
+    ((i=$i+1))
 done
