@@ -1,0 +1,1 @@
+find /usr/lib/nodejs/npmlog -name "*.js" | xargs basename -a
