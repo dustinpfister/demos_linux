@@ -1,0 +1,1 @@
+find /usr/lib/nodejs -name "*.js" -exec basename {} ';'
