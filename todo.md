@@ -18,10 +18,10 @@ There is writing even more on various basic commands that I have not wrote posts
 * (done) s2 example can be using cd to change the pwd
 * (done) s3 section on $pwd var
 
-### ( for 07/07/2021 ) x.3 - linux-basename
-* s1 example using basename by itself
-* s2 example using echo, piping, xargs and basename
-* s3 example using find and piping
+### ( done 07/07/2021 ) x.3 - linux-basename
+* (done) s1 example using basename by itself
+* (done) s2 example using echo, piping, xargs and basename
+* (done) s3 example using find and piping
 
 ### ( for 07/08/2021 ) x.4 - linux-uname
 * s1 example on uname by itself
