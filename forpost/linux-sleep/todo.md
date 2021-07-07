@@ -8,3 +8,4 @@ ref this post:
     * (done) s1 echo.sh example of using ehco before and after the sleep command.
 * (done) start an s2 folder on bash scripts
     * (done) s2 basic.sh bash script example of a loop
+    * (done) s2 node script
