@@ -18,12 +18,17 @@ There is writing even more on various basic commands that I have not wrote posts
 * (done) s2 example can be using cd to change the pwd
 * (done) s3 section on $pwd var
 
-### ( for 07/07/2021 ) x.3 - linux-uname
+### ( for 07/07/2021 ) x.3 - linux-basename
+* s1 example using basename by itself
+* s2 example using echo, piping, xargs and basename
+* s3 example using find and piping
+
+### ( for 07/08/2021 ) x.4 - linux-uname
 * s1 example on uname by itself
 * s2 example on uname -a
 * s3 example on other options
 
-### ( for 07/08/2021 ) x.4 - linux-sleep
+### ( for 07/09/2021 ) x.5 - linux-sleep
 * s1 example of sleep command
 * s2 example of using sleep command in a loop
 
@@ -33,9 +38,14 @@ There is writing even more on various basic commands that I have not wrote posts
 
 ## xx/xx/xx to xx/xx/xx - More basic commands
 
+### (  ) x.1 - linux-ln
+* s1 example on a soft link
+
 ### (  ) x.1 - linux-xset
 * basic s1 example of xset -q to just see current status
 * s2 example on xset -s
+
+
 
 
 
