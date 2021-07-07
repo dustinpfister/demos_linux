@@ -36,6 +36,20 @@ There is writing even more on various basic commands that I have not wrote posts
 
 
 
+## xx/xx/xx to xx/xx/xx - A few bash scripts using git
+
+The plan here is to write a few bash scripts that have to do with using git as a way to create a collection of text files, and to also tract changes in word count as the collection of text grows or changes.
+
+### () x.1 - linux-bash-script-example-git-posts-create-folder
+
+### () x.2 - linux-bash-script-example-git-posts-write
+
+### () x.3 - linux-bash-script-example-git-posts-wc
+
+
+
+
+
 ## xx/xx/xx to xx/xx/xx - More basic commands
 
 ### (  ) x.1 - linux-ln
