@@ -1,0 +1,1 @@
+echo -e "/foo/bar\n/foo/baz" | xargs basename -a
