@@ -23,14 +23,14 @@ There is writing even more on various basic commands that I have not wrote posts
 * (done) s2 example using echo, piping, xargs and basename
 * (done) s3 example using find and piping
 
-### ( for 07/08/2021 ) x.4 - linux-uname
-* s1 example on uname by itself
-* s2 example on uname -a
-* s3 example on other options
+### ( done 07/08/2021 ) x.4 - linux-uname
+* (done) s1 example on uname by itself
+* (done) s2 example on uname -a
+* (done) s3 example on other options
 
-### ( for 07/09/2021 ) x.5 - linux-sleep
-* s1 example of sleep command
-* s2 example of using sleep command in a loop
+### ( done 07/09/2021 ) x.5 - linux-sleep
+* (done) s1 example of sleep command
+* (done) s2 example of using sleep command in a loop
 
 
 
