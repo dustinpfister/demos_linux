@@ -1,8 +1,10 @@
 #!/bin/bash
 i=1
 while [ $i -lt 10 ];do
-    node -e "console.log($i + 5)"
+    js="console.log(Math.pow(2, $i))"
+    echo -en "running javaScript: $js\n"
+    node -e "$js"
     sleep 5
-    echo " "
+    echo -en "done\n\n"
     ((i=$i+1))
 done
