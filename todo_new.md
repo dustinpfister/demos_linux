@@ -1,6 +1,21 @@
 # demos_linux todo list
 
 
+## xx/xx/xx to xx/xx/xx - More posts on raspberry pi os
+
+I like raspberry pi boards, everything about them is just plain awesome. I wrote a few posts on raspberry pi os in general rather than various things that might be more or less the same on most Linux systems. However it might be a good idea to continue to expand this kind of sub collection of posts on things that might just be central to raspberry pi os.
+
+### x.1 - linux-raspberry-pi-os-raspi-config
+
+### x.2 - linux-raspberry-pi-os-create-new-user
+
+### x.3 - linux-raspberry-pi-os-lxdepi-lxsession-autostart
+
+### x.4 - linux-raspberry-pi-os-wifi
+
+### x.5 - linux-raspberry-pi-os-
+
+
 
 
 
@@ -58,25 +73,6 @@ The plan here is to write a few bash scripts that have to do with using git as a
 ### (  ) x.1 - linux-xset
 * basic s1 example of xset -q to just see current status
 * s2 example on xset -s
-
-
-
-
-
-## xx/xx/xx to xx/xx/xx - More posts on raspberry pi os
-
-I like raspberry pi boards, everything about them is just plain awesome. I wrote a few posts on raspberry pi os in general rather than various things that might be more or less the same on most Linux systems. However it might be a good idea to continue to expand this kind of sub collection of posts on things that might just be central to raspberry pi os.
-
-### x.1 - linux-raspberry-pi-os-raspi-config
-
-### x.2 - linux-raspberry-pi-os-create-new-user
-
-### x.3 - linux-raspberry-pi-os-lxdepi-lxsession-autostart
-
-### x.4 - linux-raspberry-pi-os-wifi
-
-### x.5 - linux-raspberry-pi-os-
-
 
 
 
