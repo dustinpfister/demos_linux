@@ -5,6 +5,22 @@
 
 I like raspberry pi boards, everything about them is just plain awesome. I wrote a few posts on raspberry pi os in general rather than various things that might be more or less the same on most Linux systems. However it might be a good idea to continue to expand this kind of sub collection of posts on things that might just be central to raspberry pi os.
 
+### x.1 - linux-raspberry-pi-os-upgrading
+* write a post on upgrading raspberry pi os
+* why to use sudo apt full-upgrade over sudo apt-get upgrade
+
+Good link as to why
+
+```
+https://www.raspberrypi.org/forums/viewtopic.php?p=1567915#p1567915 
+```
+
+```
+$ sudo apt update
+$ sudo apt full-upgrade
+```
+
+
 ### x.1 - linux-raspberry-pi-os-raspi-config
 
 ### x.2 - linux-raspberry-pi-os-create-new-user
