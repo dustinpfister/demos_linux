@@ -20,16 +20,30 @@ $ sudo apt update
 $ sudo apt full-upgrade
 ```
 
+### x.2 - linux-raspberry-pi-os-nodejs-setup
+* write a post on how to set up nodejs with more than one binary for arm7.1
 
-### x.1 - linux-raspberry-pi-os-raspi-config
+This blog outlined that there are arm7.1 binarys that can be used
+```
+https://azukidigital.com/blog/2019/electron-application-on-raspberry-pi/
+```
 
-### x.2 - linux-raspberry-pi-os-create-new-user
+The urls to care about at nodejs.org ( linux-arm7l.tar.gz for pi 4)
+```
+https://nodejs.org/dist/
+https://nodejs.org/dist/v16.9.1/
+```
 
-### x.3 - linux-raspberry-pi-os-lxdepi-lxsession-autostart
 
-### x.4 - linux-raspberry-pi-os-wifi
+### x.x - linux-raspberry-pi-os-raspi-config
 
-### x.5 - linux-raspberry-pi-os-
+### x.x - linux-raspberry-pi-os-create-new-user
+
+### x.x - linux-raspberry-pi-os-lxdepi-lxsession-autostart
+
+### x.x - linux-raspberry-pi-os-wifi
+
+### x.x - linux-raspberry-pi-os-
 
 
 
