@@ -1,5 +1,7 @@
 # linux-ln todo list
 
+## () start an s3 section on soft links in /bin folder
+
 ## () start an s2 section on hard links
 * the basic example should create a file, and then a hard link to it
 * delete the source file
