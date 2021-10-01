@@ -1,10 +1,14 @@
 # linux-ln todo list
 
-## () start an sx section on soft links in /usr/local/bin folder
+## (  ) start an sx section on soft links in /usr/local/bin folder
 * a section on making soft links in the the /usr/local/bin folder
 * copy a nodejs 14.x folder to /usr/local/lib
 * create a /usr/local/bin/node14 soft link to /user/local/lib/node14/bin/node
 * create a /user/local/bin/npm-node14 soft link to /user/local/lib/node14/bin/npm
+
+## (  ) start a new sx section on a list links bash script
+* start a new section about a bash script that is a list links command
+* the command should spit out 'soft' 'hard' 'file', or 'error' for a given path
 
 ## (done 10/01/2021 ) start an s3 section on the force option
 * (done) just one force option example so for now
