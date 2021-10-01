@@ -1,7 +1,42 @@
 # demos_linux todo list
 
+## Linux folders
 
-## xx/xx/xx to xx/xx/xx - More posts on raspberry pi os
+Start and expand a collection of posts on the various folders that compose a linux system. This is folders like /bin, /sbin, ect that show up in the $PATH variable.
+```
+$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+```
+However this can also include posts on holders like /home, /boot, ect. As well as specific kinds of folders in these folders that show up in the root folder of a file system such as /home/user-name/.config, /usr/local/bin, /usr/local/lib, ect. The file names for the posts should then follow a pattern like
+```
+linux-folders-usr-local-lib
+```
+to refer to
+```
+/usr/local/lib
+```
+In a Linux system.
+
+
+### () - linux-folders-usr
+* start a draft folder on some scripts that have to do with the usr folder
+```
+https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/usr.html
+```
+
+### () - linux-folders-usr-bin
+### () - linux-folders-usr-local-bin
+### () - linux-folders-usr-local-lib
+### () - linux-folders-bin
+### () - linux-folders-sbin
+### () - linux-folders-boot
+### () - linux-folders-home
+### () - linux-folders-etc
+### () - linux-folders
+
+
+
+## More posts on raspberry pi os
 
 I like raspberry pi boards, everything about them is just plain awesome. I wrote a few posts on raspberry pi os in general rather than various things that might be more or less the same on most Linux systems. However it might be a good idea to continue to expand this kind of sub collection of posts on things that might just be central to raspberry pi os.
 

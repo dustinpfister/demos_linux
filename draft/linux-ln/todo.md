@@ -6,10 +6,13 @@
 * create a /usr/local/bin/node14 soft link to /user/local/lib/node14/bin/node
 * create a /user/local/bin/npm-node14 soft link to /user/local/lib/node14/bin/npm
 
-## () start an s2 section on hard links
-* the basic example should create a file, and then a hard link to it
-* delete the source file
-* then call the hard link
+## start an s3 section on the force option
+* just one force option example so for now
+
+## ( done 10/01/2021 ) start an s2 section on hard links
+* (done) the basic example should create a file, and then a hard link to it
+* (done) delete the source file
+* (done) then call the hard link
 
 ## ( done 09/25/2021 ) - first set of examples
 * (done) s1-basic/soft-link.sh: use linux echo and redirection to create a foo.txt
