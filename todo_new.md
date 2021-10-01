@@ -53,6 +53,11 @@ https://nodejs.org/dist/v16.9.1/
 
 There is writing even more on various basic commands that I have not wrote posts on just yet.
 
+### () - linux-ln
+* start a linux-ln draft folder
+* have at least three sections
+* write the post
+
 ### ( done 07/05/2021 ) x.1 - linux-rm
 * (done) s1 - have a basic demo with no options
 * (done) s2 - have a rm -d demo
