@@ -4,7 +4,7 @@
 * a section on making soft links in the the /usr/local/bin folder
 * copy a nodejs 14.x folder to /usr/local/lib
 * create a /usr/local/bin/node14 soft link to /user/local/lib/node14/bin/node
-* create a /user/local/bin/node14npm soft link to /user/local/lib/node14/bin/npm
+* create a /user/local/bin/npm-node14 soft link to /user/local/lib/node14/bin/npm
 
 ## () start an s2 section on hard links
 * the basic example should create a file, and then a hard link to it
