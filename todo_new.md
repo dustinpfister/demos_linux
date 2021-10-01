@@ -25,13 +25,21 @@ https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/usr.html
 ```
 
 ### () - linux-folders-usr-bin
+
 ### () - linux-folders-usr-local-bin
+
 ### () - linux-folders-usr-local-lib
+
 ### () - linux-folders-bin
+
 ### () - linux-folders-sbin
+
 ### () - linux-folders-boot
+
 ### () - linux-folders-home
+
 ### () - linux-folders-etc
+
 ### () - linux-folders
 
 
@@ -84,14 +92,18 @@ https://nodejs.org/dist/v16.9.1/
 
 
 
-## 07/05/2021 to 07/09/2021 - More posts on some basic commands
+## - More posts on some basic commands
 
 There is writing even more on various basic commands that I have not wrote posts on just yet.
 
-### () - linux-ln
-* start a linux-ln draft folder
-* have at least three sections
-* write the post
+### ( ) - linux-test
+* start a draft folder on the linux-test command
+* the example in linux-ln is a good one
+
+### ( done 10/01/2021 ) - linux-ln
+* (done) start a linux-ln draft folder
+* (done) have at least three sections
+* (done) write the post
 
 ### ( done 07/05/2021 ) x.1 - linux-rm
 * (done) s1 - have a basic demo with no options
