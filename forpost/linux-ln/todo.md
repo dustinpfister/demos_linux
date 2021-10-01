@@ -6,8 +6,8 @@
 * create a /usr/local/bin/node14 soft link to /user/local/lib/node14/bin/node
 * create a /user/local/bin/npm-node14 soft link to /user/local/lib/node14/bin/npm
 
-## start an s3 section on the force option
-* just one force option example so for now
+## (done 10/01/2021 ) start an s3 section on the force option
+* (done) just one force option example so for now
 
 ## ( done 10/01/2021 ) start an s2 section on hard links
 * (done) the basic example should create a file, and then a hard link to it
