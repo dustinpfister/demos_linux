@@ -4,7 +4,10 @@
 * new section using bash scripts and alises for tests
 
 ## () - section on custom tests with nodejs
-* start a new section that shouws how to do the same as with test, only with nodejs
+* start a new section that shows how to do the same as with test, only with nodejs
+
+## () - basic example showing test is a bash built in command
+* have an s1 basic section example using the type command with test to show it is a bash built in
 
 ## ( done 10/08/2021 ) - more s1 basics examples
 * (done) new example that makes us of an if statement
