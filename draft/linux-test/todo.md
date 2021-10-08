@@ -1,9 +1,12 @@
 # linux-test
 
-## s4 - bash scripts and alises
+## () - more s1 basics examples
+* have some more examples on the basics starting with using redirection in place of echo
+
+## () - bash scripts and alises
 * new section using bash scripts and alises for tests
 
-## s3 - section on custom tests with nodejs
+## () - section on custom tests with nodejs
 * start a new section that shouws how to do the same as with test, only with nodejs
 
 ## () - first set of examples
