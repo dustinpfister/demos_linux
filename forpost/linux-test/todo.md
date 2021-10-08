@@ -6,10 +6,10 @@
 ## () - section on custom tests with nodejs
 * start a new section that shouws how to do the same as with test, only with nodejs
 
-## () - more s1 basics examples
+## ( done 10/08/2021 ) - more s1 basics examples
 * (done) new example that makes us of an if statement
-* new example that makes use of && and ||
-* have an example that makes use of redirection to create a file
+* (done) new example that makes use of && and ||
+* (done) have an example that makes use of redirection to create a file
 
 ## ( done 10/08/2021 ) - first set of examples
 * (done) I will want to start a basic section, that has at least on simple example
