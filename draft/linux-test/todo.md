@@ -11,9 +11,9 @@
 
 ## () - first set of examples
 * (done) I will want to start a basic section, that has at least on simple example
-* start an s2 section can be on expressions in detail
-* have an s2 example on -eq
-* have an s2 example on -ge
-* have an s2 example on -gt
+* (done) start an s2 section can be on expressions in detail
+* (done) have an s2 example on -eq
+* (done) have an s2 example on -ge
+* (done) have an s2 example on -gt
 * have an s2 example on -d (folder)
 * have an s2 exmaple on -h (syslink)
