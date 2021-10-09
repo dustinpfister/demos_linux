@@ -17,10 +17,11 @@ int main()
     while( (entry=readdir(folder)) )
     {
         files++;
-        printf("File %3d: %s\n",
-                files,
-                entry->d_name
-              );
+        printf("%s\n", entry->d_name);
+        //printf("File %3d: %s\n",
+        //        files,
+        //        entry->d_name
+        //      );
     }
 
     closedir(folder);
