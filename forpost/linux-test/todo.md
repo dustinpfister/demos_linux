@@ -12,8 +12,8 @@
 * new section using bash scripts and alises for tests
 * start a new section that shows how to do the same as with test, only with nodejs
 
-## () - new s3-custom-tests section nodejs example
-* start at least one nodejs example that wil exit with code 0 or 1
+## ( done 10/09/2021 ) - new s3-custom-tests section nodejs example
+* (done) start at least one nodejs example that wil exit with code 0 or 1
 
 ## ( done 10/09/2021 ) - new s3-custom-tests section started
 * (done) start a new custom tests section with at least one bash script example that will exit with code 0 or 1
