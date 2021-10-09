@@ -1,14 +1,26 @@
 # linux-test
 
+
+## () - new s3-custom-tests section c example
+* have at least one simple c source code example that will exit with 0 or 1
+* have a script that will use gcc to build a binary for this
+
+## () - new s3-custom-tests section python example
+* at least one pythin example that will exit with status 0 or 1
+
 ## () - bash scripts and alises
 * new section using bash scripts and alises for tests
-
-## () - section on custom tests with nodejs
 * start a new section that shows how to do the same as with test, only with nodejs
 
+## () - new s3-custom-tests section nodejs example
+* start at least one nodejs example that wil exit with code 0 or 1
+
+## () - new s3-custom-tests section started
+* start a new custom tests section with at least one bash script example that will exit with code 0 or 1
+
 ## () - expand on s2 equals example to include string examples + new not equals example
-* rename eq.sh to equals.sh
-* have a string example of equals in equals.js
+* (done) rename eq.sh to equals.sh
+* (done) have a string example of equals in equals.js
 * start a not-equals.sh example
 
 ## ( done 10/09/2021 ) - basic example showing test is a bash built in command
