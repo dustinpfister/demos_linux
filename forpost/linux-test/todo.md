@@ -18,10 +18,10 @@
 ## () - new s3-custom-tests section started
 * start a new custom tests section with at least one bash script example that will exit with code 0 or 1
 
-## () - expand on s2 equals example to include string examples + new not equals example
+## ( done 10/09/2021 ) - expand on s2 equals example to include string examples + new not equals example
 * (done) rename eq.sh to equals.sh
 * (done) have a string example of equals in equals.js
-* start a not-equals.sh example
+* (done) start a not-equals.sh example
 
 ## ( done 10/09/2021 ) - basic example showing test is a bash built in command
 * (done) have an s1 basic section example using the type command with test to show it is a bash built in
