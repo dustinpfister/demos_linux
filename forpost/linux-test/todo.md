@@ -6,8 +6,13 @@
 ## () - section on custom tests with nodejs
 * start a new section that shows how to do the same as with test, only with nodejs
 
-## () - basic example showing test is a bash built in command
-* have an s1 basic section example using the type command with test to show it is a bash built in
+## () - expand on s2 equals example to include string examples + new not equals example
+* rename eq.sh to equals.sh
+* have a string example of equals in equals.js
+* start a not-equals.sh example
+
+## ( done 10/09/2021 ) - basic example showing test is a bash built in command
+* (done) have an s1 basic section example using the type command with test to show it is a bash built in
 
 ## ( done 10/08/2021 ) - more s1 basics examples
 * (done) new example that makes us of an if statement
