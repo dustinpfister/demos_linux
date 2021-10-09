@@ -15,8 +15,8 @@
 ## () - new s3-custom-tests section nodejs example
 * start at least one nodejs example that wil exit with code 0 or 1
 
-## () - new s3-custom-tests section started
-* start a new custom tests section with at least one bash script example that will exit with code 0 or 1
+## ( done 10/09/2021 ) - new s3-custom-tests section started
+* (done) start a new custom tests section with at least one bash script example that will exit with code 0 or 1
 
 ## ( done 10/09/2021 ) - expand on s2 equals example to include string examples + new not equals example
 * (done) rename eq.sh to equals.sh
