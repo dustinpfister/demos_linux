@@ -13,3 +13,10 @@ Reading a dir
 https://c-for-dummies.com/blog/?p=3246
 ```
 
+Regular expressions
+
+I will need to figure out regular expressons in c
+
+```
+https://stackoverflow.com/questions/1085083/regular-expressions-in-c-examples
+```
