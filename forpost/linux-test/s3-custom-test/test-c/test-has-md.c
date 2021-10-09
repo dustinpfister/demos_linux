@@ -6,25 +6,22 @@ regex_t regex;
 int reti;
 int mdcount = 0;
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]){
     DIR *folder;
     struct dirent *entry;
     int files = 0;
     char *dirpath =  ".";
+    // if we have a positional use that
     if(argc > 1){
         dirpath = argv[1];
     }
-
+    // open folder
     folder = opendir(dirpath);
-    if(folder == NULL)
-    {
-        perror("Unable to read directory");
-        return(1);
+    if(folder == NULL){
+        // return a status of 2 for folder not found
+        return 2;
     }
-
-    while( (entry=readdir(folder)) )
-    {
+    while( (entry=readdir(folder)) ){
         files++;
         reti = regcomp(&regex, "\\.md$", 0);
         if(reti){
@@ -38,11 +35,10 @@ int main(int argc, char *argv[])
         }
         regfree(&regex);
     }
-    
     closedir(folder);
     // if mdcount is greater than 0 then return exit with code 0
+    //printf("%i\n", mdcount);
     if(mdcount > 0){
-        printf("%i\n", mdcount);
         return 0;
     }
     // else exit with code 1
