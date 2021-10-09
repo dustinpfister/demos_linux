@@ -1,16 +1,16 @@
 # linux-test
 
 
-## () - new s3-custom-tests section c example
-* have at least one simple c source code example that will exit with 0 or 1
-* have a script that will use gcc to build a binary for this
-
 ## () - new s3-custom-tests section python example
 * at least one pythin example that will exit with status 0 or 1
 
 ## () - bash scripts and alises
 * new section using bash scripts and alises for tests
 * start a new section that shows how to do the same as with test, only with nodejs
+
+## ( done 10/09/2021 ) - new s3-custom-tests section c example
+* (done) have at least one simple c source code example that will exit with 0 or 1
+* (done) have a script that will use gcc to build a binary for this
 
 ## ( done 10/09/2021 ) - new s3-custom-tests section nodejs example
 * (done) start at least one nodejs example that wil exit with code 0 or 1
