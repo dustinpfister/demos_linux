@@ -1,5 +1,19 @@
 # demos_linux todo list
 
+## Ram drives
+
+
+### () linux-ramdrive
+* start a new post where the goal is to create a linux ram drive
+* it would seem that this can be done with the mount command
+```
+https://www.linuxbabe.com/command-line/create-ramdisk-linux
+```
+
+
+
+
+
 ## Linux folders
 
 Start and expand a collection of posts on the various folders that compose a linux system. This is folders like /bin, /sbin, ect that show up in the $PATH variable.
@@ -96,9 +110,9 @@ https://nodejs.org/dist/v16.9.1/
 
 There is writing even more on various basic commands that I have not wrote posts on just yet.
 
-### ( ) - linux-test
-* start a draft folder on the linux-test command
-* the example in linux-ln is a good one
+### ( done 10/08/2021 ) - linux-test
+* (done) start a draft folder on the linux-test command
+* (done) the example in linux-ln is a good one
 
 ### ( done 10/01/2021 ) - linux-ln
 * (done) start a linux-ln draft folder
