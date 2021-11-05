@@ -8,7 +8,7 @@
 ### (  ) - expand av-simple-positional section
 * have a 4-c.c example that has to do with working with positionals in C
 
-### (  ) - new av-simple-positional section
-* have a 1-bash.sh file in simple positionals in bash
-* have a 2-node.js file that shows how to work with positionals in nodejs
-* have a 3-python.py file that shouls how to do positionals in python
+### ( done 11/05/2021 ) - new av-simple-positional section
+* (done) have a 1-bash.sh file in simple positionals in bash
+* (done) have a 2-node.js file that shows how to work with positionals in nodejs
+* (done) have a 3-python.py file that shouls how to do positionals in python
