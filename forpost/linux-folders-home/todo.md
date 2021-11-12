@@ -4,7 +4,7 @@
 
 ## () - new av-bashrc file section
 * 1-basic - basic example of a bashrc file example
-* 2-aliases - have an aliases file example
+* 2-aliases - have a basic aliases file example
 
 ## ( done 11/12/2021 ) - basics section
 * (done) 1-cd-to - cd to home example
