@@ -7,6 +7,6 @@
 * 2-aliases - have an aliases file example
 
 ## () - basics section
-* 1-cd-to - cd to home example
+* (done) 1-cd-to - cd to home example
 * 2-env - enviornment variable example
 * 3-ls - list home folder contents
