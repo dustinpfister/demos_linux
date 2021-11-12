@@ -6,7 +6,7 @@
 * 1-basic - basic example of a bashrc file example
 * 2-aliases - have an aliases file example
 
-## () - basics section
+## ( done 11/12/2021 ) - basics section
 * (done) 1-cd-to - cd to home example
-* 2-env - enviornment variable example
-* 3-ls - list home folder contents
+* (done) 2-env - enviornment variable example
+* (done) 3-ls - list home folder contents
