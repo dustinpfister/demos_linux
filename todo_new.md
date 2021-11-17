@@ -44,7 +44,7 @@ https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/usr.html
 
 ### () - linux-folders-usr-local-lib
 
-### () - linux-folders-bin
+### ( done 11/15/2021 ) - linux-folders-bin
 
 ### () - linux-folders-sbin
 
