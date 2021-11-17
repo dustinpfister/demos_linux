@@ -43,3 +43,9 @@ The input folder contains some files for reading from input devices such as the 
 https://thehackerdiary.wordpress.com/2017/04/21/exploring-devinput-1/
 ```
 
+### The mouse
+
+```
+xxd -p /dev/input/mouse0
+```
+
