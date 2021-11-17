@@ -2,6 +2,7 @@
 
 ## (  ) - new av-input section on /dev/input
 * (done) 1-mouse on /dev/input/mouse0
+* 2-event on /dev/input/eventX
 
 ## (  ) - new av-psydo section
 * (done) 1-null example on /dev/null
