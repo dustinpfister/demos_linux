@@ -1,2 +1,4 @@
 #!/bin/bash
-head -c 100 /dev/random | xxd -p
+c=${1:-1}
+echo $c
+head -c $c /dev/random | xxd -p
