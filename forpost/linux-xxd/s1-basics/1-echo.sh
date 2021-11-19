@@ -1,2 +1,3 @@
 #!/bin/bash
-echo -n "A" | xxd -p 
+echo -n "A" | xxd -p
+#41
