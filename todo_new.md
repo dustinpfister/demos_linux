@@ -111,9 +111,8 @@ https://nodejs.org/dist/v16.9.1/
 
 There is writing even more on various basic commands that I have not wrote posts on just yet.
 
-### () - linux-xxd
-* This is a command that is like cat, only it can dump hex to the console
-* make sure to have an example using /dev/input/mouse0
+### ( done 11/19/2021 ) - linux-xxd
+* (done) This is a command that is like cat, only it can dump hex to the console
 
 ### ( done 10/08/2021 ) - linux-test
 * (done) start a draft folder on the linux-test command
