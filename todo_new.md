@@ -50,12 +50,13 @@ https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/usr.html
 
 ### () - linux-folders-boot
 
-### () - linux-folders-home
+### ( done 11/12/2021 ) - linux-folders-home
 
 ### () - linux-folders-etc
 
 ### () - linux-folders
 
+### ( done 11/17/2021) - linux-folders-dev
 
 
 ## More posts on raspberry pi os
