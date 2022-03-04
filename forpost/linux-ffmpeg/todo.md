@@ -1,5 +1,11 @@
 # linux-ffmpeg todo list
 
+## () - create a collection of frames from a video file
+* have an example where a collection of frames is being created form a video file
+```
+https://stackoverflow.com/questions/10957412/fastest-way-to-extract-frames-using-ffmpeg
+```
+
 ## () - example on the -codec aka -c option
 * see about using the -c option to use a codec other than the default h264
 
