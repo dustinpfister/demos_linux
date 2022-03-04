@@ -1,0 +1,1 @@
+ffmpeg -framerate 30 -i frame-%04d.png video.mp4
