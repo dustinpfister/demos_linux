@@ -19,5 +19,8 @@ The resulting file ceated with this set of options will work when I open it in c
 
 ## Resources
 
-On the isshue of videos not playing back on VLC and others
+Great anwser on the isshue of videos not playing back on VLC and other media players
 https://superuser.com/a/705070
+
+Wikipdia on MPEG-4
+https://en.wikipedia.org/wiki/MPEG-4
