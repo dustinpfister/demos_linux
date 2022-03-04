@@ -9,16 +9,18 @@ Codec: H264 - MPEG-4 AVC (part 10) (avc1)
 ```
 I should be able to use other codecs with the mp4 container type
 
-## () - Uisng ffmpeg to crop images
+## () - looks like there is a noise filter try it out
+* update gitignore so that no frames get sent to remote
+* use the -vf option with the noise filter
 
-## () - Using ffmpeg to scale images
-* I will want an example that uses ffmpeg to scale images using -vf option
-```
-https://ffmpeg.org/ffmpeg-filters.html#scale-1
-```
+## () - Uisng ffmpeg to crop images
+* use the -vf option to crope images
+
+## ( done 03/04/2022 ) - Using ffmpeg to scale images
+* (done) I will want an example that uses ffmpeg to scale images using -vf option
 
 ## ( done 03/04/2022 ) - see about the pix_fmt option
-* Have a section on the -pix_fmt option
+* (done) Have an example on the -pix_fmt option
 
 ## ( done 03/04/2022 ) - list codecs and pix_fmts example
 * (done) have a script that will just display what the options are when it comes to -codecs
