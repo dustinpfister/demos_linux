@@ -16,3 +16,8 @@ $ ffmpeg -framerate 30 -i frame-%04d.png video.mp4
 ### Files made with just this set of options will not work in all media players
 
 The resulting file ceated with this set of options will work when I open it in chrome, and some other programes like OpenShot, but it will not work in VLC.
+
+## Resources
+
+On the isshue of videos not playing back on VLC and others
+https://superuser.com/a/705070
