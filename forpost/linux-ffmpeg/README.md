@@ -22,5 +22,8 @@ The resulting file ceated with this set of options will work when I open it in c
 Great anwser on the isshue of videos not playing back on VLC and other media players
 https://superuser.com/a/705070
 
+The ffmpeg man page that looks to be the same as what I am using
+https://ffmpeg.org/ffmpeg.html
+
 Wikipdia on MPEG-4
 https://en.wikipedia.org/wiki/MPEG-4
