@@ -25,5 +25,8 @@ https://superuser.com/a/705070
 The ffmpeg man page that looks to be the same as what I am using
 https://ffmpeg.org/ffmpeg.html
 
+on filters such as scale
+https://ffmpeg.org/ffmpeg-filters.html#scale-1
+
 Wikipdia on MPEG-4
 https://en.wikipedia.org/wiki/MPEG-4

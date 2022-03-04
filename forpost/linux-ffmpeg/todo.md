@@ -12,7 +12,10 @@ I should be able to use other codecs with the mp4 container type
 ## () - Uisng ffmpeg to crop images
 
 ## () - Using ffmpeg to scale images
-* I will want an example that uses ffmpeg to scale images
+* I will want an example that uses ffmpeg to scale images using -vf option
+```
+https://ffmpeg.org/ffmpeg-filters.html#scale-1
+```
 
 ## ( done 03/04/2022 ) - see about the pix_fmt option
 * Have a section on the -pix_fmt option
