@@ -1,5 +1,7 @@
 # linux-ffmpeg todo list
 
+## () - example on bash alises
+
 ## () - create a collection of frames from a video file
 * have an example where a collection of frames is being created form a video file
 ```
@@ -8,6 +10,7 @@ https://stackoverflow.com/questions/10957412/fastest-way-to-extract-frames-using
 
 ## () - example on concatanating videos
 * have an example that has to do with concatanating videos
+* see about quickly creating a videos.txt file with ls\*.mp4 and whaterver else I need to do in the bash script
 ```
 $ ffmpeg -f concat -i videos.txt -c copy video.mp4
 ```
