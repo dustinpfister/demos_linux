@@ -1,5 +1,5 @@
 ./create-files.sh
 
-ls file[0-9].txt
+ls file[1-3].txt
 
 rm *.txt
