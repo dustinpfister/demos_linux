@@ -16,7 +16,7 @@ Codec: H264 - MPEG-4 AVC (part 10) (avc1)
 ```
 I should be able to use other codecs with the mp4 container type
 
-## () - example on piping, with ls, awk, and pipe value for -i option
+## () - example on piping, redirection, with ls, awk, and pipe value for -i option
 * have an example that has to do with concatanating videos
 * see about quickly creating a videos.txt file with ls\*.mp4 and awk
 
@@ -24,8 +24,11 @@ I should be able to use other codecs with the mp4 container type
 ls video[0-9]*.mp4 | awk '{ printf "file \x27%s\x27\n", $0 }'
 ```
 
+This works by using ls and piping that to awk to then create a videos.txt file with redirection
+The videos.txt file can then be used with ffmpeg as the -i option
 ```
-$ ls video[0-9]*.mp4 | awk '{ printf "file \x27%s\x27\n", $0 }' | ffmpeg -f concat -i pipe -c copy video.mp4
+$ ls video[0-9]*.mp4 | awk '{ printf "file \x27%s\x27\n", $0 }' > videos.txt
+$ ls ffmpeg -f concat -i videos.txt -c copy video.mp4
 ```
 
 ## ( done 03/04/2022 ) - looks like there is a noise filter try it out
