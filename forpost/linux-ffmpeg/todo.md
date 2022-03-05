@@ -6,6 +6,12 @@
 https://stackoverflow.com/questions/10957412/fastest-way-to-extract-frames-using-ffmpeg
 ```
 
+## () - example on concatanating videos
+* have an example that has to do with concatanating videos
+```
+$ ffmpeg -f concat -i videos.txt -c copy video.mp4
+```
+
 ## () - example on the -codec aka -c option
 * see about using the -c option to use a codec other than the default h264
 
