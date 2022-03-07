@@ -11,3 +11,5 @@ ffmpeg -y -i ./video1.mp4 -vf setpts=2.5*PTS video2.mp4
 ls video[0-9]*.mp4 | awk '{ printf "file \x27%s\x27\n", $0 }' > videos.txt
 cat ./videos.txt
 ffmpeg -f concat -i videos.txt -c copy video-concat.mp4
+
+# ls video[0-9]*.mp4 | awk '{ printf "file \x27%s\x27\n", $0 }' > videos.txt; ffmpeg -f concat -i videos.txt -c copy video-concat.mp4
