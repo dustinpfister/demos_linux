@@ -18,6 +18,6 @@ $ make update
 $ make
 ```
 
-However after that I get errors that seem to have to do with gcc and missing assets.
+However after that I get errors that seem to have to do with gcc and missing assets. It would seem that cloning down the source code will pull down a lot, but not everything.
 
 
