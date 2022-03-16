@@ -40,4 +40,7 @@ Even if things goe well when it comes to doing a make update I still run into pr
 
 I would prefer to just find some precompiled binaries as portable stand alone bins in a folder, there are a lot of projects where I have suiccess with that. However I am having a hard time finding that so far at least at the sources that I have checked online thus far.
 
+## This ending up being an epic failure
+
+I notice that I was ruining into errors because a library was not installed called libjpeg, when I went to install this I was expecting it to just be a single little library and that is it. I end ending up making a major change to the raspberry pi os install and not I might need to re image.
 
