@@ -10,4 +10,14 @@ I can get as far as pulling down the source code for a specific version of cours
 $ git clone -b v2.79b --depth 1 https://github.com/blender/blender
 ```
 
+After that I should then just be able to just cd into the blender file and use make
+
+```
+$ cd blender
+$ make update
+$ make
+```
+
+However after that I get errors that seem to have to do with gcc and missing assets.
+
 
