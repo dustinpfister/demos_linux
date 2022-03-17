@@ -1,6 +1,6 @@
 # linux-raspberry-pi-os-lxpanel
 
-This is what I have drafted together when it comes to working out some things for lxpanel
+This is what I have drafted together when it comes to working out some things for lxpanel.
 
 ## resources
 
