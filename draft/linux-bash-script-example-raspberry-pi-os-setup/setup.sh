@@ -9,3 +9,6 @@ dir_home=$(echo $HOME);
 echo "running setup for new raspberry pi image that will be used for ${setup_type}"
 echo "script dir ${dir_script}"
 echo "home path for current user ${dir_home}"
+
+# background
+./parts/1-bg.sh ${setup_type}

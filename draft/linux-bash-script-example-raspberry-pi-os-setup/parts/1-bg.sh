@@ -6,11 +6,14 @@
 
 # get path to source image for setup type
 setup_type=${1:-work};
-dir_bg=$(realpath ../bg);
+dir_script=$(dirname $0 | xargs realpath);
+dir_bg=$(realpath ${dir_script}/../bg);
 path_source_image="${dir_bg}/bg_${setup_type}.png"
 
 # echoing what is going on for this script
 echo "setting background for "${setup_type}" setup"
+
+echo "${path_source_image}"
 
 # copy the source image to the home folder
 cp "${path_source_image}" ~/Pictures/rpi-bg.png
