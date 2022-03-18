@@ -1,6 +1,13 @@
 # linux-bash-script-example-raspberry-pi-os todo list
 
-## () - part4 - install software
+## () - part6 - pannel
+* custom launch pannle for each setup
+
+## () - part5 - install software
+* have install lists for each setup type
+    * work: nodejs npm blender gimp
+    * play: retroarch
+* do a sudo apt install [list]
 
 ## () - part4 - .gitconfig and .git-credentials
 * MAKE SURE THAT .gitconfig AND .git-credentials ARE IN GITIGNORE!
