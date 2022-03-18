@@ -14,3 +14,7 @@ echo "setting background for "${setup_type}" setup"
 
 # copy the source image to the home folder
 cp "${path_source_image}" ~/Pictures/rpi-bg.png
+
+# set background using pcmanfm for LXDE
+# https://livingthelinuxlifestyle.wordpress.com/2019/08/12/how-to-change-the-background-wallpaper-on-an-lxde-desktop/
+pcmanfm --set-wallpaper="/home/pi/Pictures/rpi-bg.png"
