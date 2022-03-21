@@ -1,7 +1,8 @@
 # linux-bash-script-example-raspberry-pi-os todo list
 
 ## () - part6 - pannel
-* custom launch pannle for each setup
+* custom launch pannel for each setup
+* set custom time format as 03/28/2022 03:30 PM 
 
 ## () - part5 - install software
 * have install lists for each setup type
