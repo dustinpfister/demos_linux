@@ -20,10 +20,10 @@
 ## () - part3 - bash aliases
 * create an .bash_aliases file base on setup type
 
-## () - part2 - bashrc file
-* check if there is a .bashrc_backup and if not make a copy of the bashec file that is there
-* create a new .bashrc file
-* custom ps1 var for simple ( PS1='\u@\W: \$ '; )
+## ( done 03/25/2022 ) - part2 - bashrc file
+* (done) check if there is a .bashrc_backup and if not make a copy of the bashec file that is there
+* (done) create a new .bashrc file
+* (done) custom ps1 var for simple ( PS1='\u@\W: \$ '; )
 
 ## ( done 03/18/2022 ) - start main setup script, and part 1-bg.sh
 * (done) start main setup script
