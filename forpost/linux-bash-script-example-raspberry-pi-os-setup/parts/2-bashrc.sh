@@ -9,4 +9,4 @@
 
 PATH_SOURCE=$(realpath ${1:-../bashrc.txt});
 
-echo $PATH_SOURCE;
+echo -e "Uisng source file for .bashrc found at: ${PATH_SOURCE} \n";
