@@ -28,3 +28,6 @@ if [ ! -f ".bashrc_backup" ]; then
        cat ${PATH_SOURCE} > .bashrc_backup;
    fi
 fi
+
+# now that we have a backup for .bashrc sets write a new one from the source
+cat ${PATH_SOURCE} > .bashrc;
