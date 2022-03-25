@@ -19,7 +19,7 @@
 ## () - part3 - bash aliases
 * create an .bash_aliases file base on setup type
 
-## () - part 2 - bashrc file
+## () - part2 - bashrc file
 * check if there is a .bashrc_backup and if not make a copy of the bashec file that is there
 * create a new .bashrc file
 * custom ps1 var for simple ( PS1='\u@\W: \$ '; )
