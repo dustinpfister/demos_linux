@@ -11,6 +11,7 @@
 * do a sudo apt install [list]
 
 ## () - part4 - .gitconfig and .git-credentials
+* (done) start a loopback.sh script to look for these files
 * MAKE SURE THAT .gitconfig AND .git-credentials ARE IN GITIGNORE!
 * only bother doing anything for this part for 'work' and 'exper' setups
 * check for .gitconfig in root folder and if there copy it to the home folder
