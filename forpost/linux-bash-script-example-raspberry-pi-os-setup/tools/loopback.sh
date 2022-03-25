@@ -3,7 +3,7 @@
 # exit with status 0 when file name is found else exit with 1
 # set a $DIR_[file basename] shell variable to the path in which the file is found
 
-DIR_START=${1:-~};
+DIR_START=${1:-$(pwd)};
 FN=${2:-rpisetup.txt};
 DIR_FN="";
 folders=($(echo ${DIR_START} | tr "/" " "));
