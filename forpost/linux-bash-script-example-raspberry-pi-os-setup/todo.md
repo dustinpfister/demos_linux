@@ -1,7 +1,12 @@
 # linux-bash-script-example-raspberry-pi-os todo list
 
-## () - part6 - pannel
-* custom launch pannel for each setup
+## () - part7 - swap space
+* have a part reserved for adjusting things with swap file
+* update any values in /etc/dphys-swapfile
+* update post linux-raspberry-pi-os-swap-file to link to the post on this
+
+## () - part6 - panel
+* custom launch panel for each setup
 * set custom time format as 03/28/2022 03:30 PM 
 
 ## () - part5 - install software
