@@ -7,6 +7,8 @@
 
 ## () - part6 - panel
 * custom launch panel for each setup
+* best way to do this might be to have one or more profile folders to copy to ~/.config/lxpanel/PROFILE
+* the profile to use can be set with the lxpanel -p PROFILE command ( see man page for lxpanel)
 * set custom time format as %b-%d-%y %I:%M %p with a tooltip of %A %B %d
 
 ## () - part5 - install software
