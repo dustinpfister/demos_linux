@@ -7,7 +7,7 @@
 
 ## () - part6 - panel
 * custom launch panel for each setup
-* set custom time format as 03/28/2022 03:30 PM 
+* set custom time format as %b-%d-%y %I:%M %p with a tooltip of %A %B %d
 
 ## () - part5 - install software
 * have install lists for each setup type
