@@ -1,4 +1,3 @@
-
 // write a single sample to the given buffer
 const writeSample = (buff, i_sample = 0, count_sample = 8000, wave_count = 1, amplitude = 0.3) => {
     const a_sample = i_sample / count_sample;
@@ -14,22 +13,24 @@ const buff = Buffer.alloc(1);
 let i_sample = 0;
 const count_sample = 8000;
 let to_high = false;
+
 const loop = () => {
-    const t = setTimeout(loop, 100);
-    while( i_sample < count_sample && !to_high ){
+
+    const t = setTimeout(loop, to_high ? 2000: 800);
+    while( i_sample < count_sample ){
         writeSample(buff, i_sample, count_sample, 10, 0.25);
-        const result = process.stdout.write(buff);
-        if(!result){
-            to_high = true;
-            //break;
-        }
+        to_high = !process.stdout.write(buff);
         i_sample += 1;
     }
+
+console.warn(to_high);
+
     i_sample %= count_sample;
 };
 // drain event
-process.stdout.on('drain', ()=>{
+process.stdout.on('drain', () => {
     process.stderr.write('We should be good now.\n');
-    to_high = false;
-})
+    //to_high = false;
+});
+
 loop();
