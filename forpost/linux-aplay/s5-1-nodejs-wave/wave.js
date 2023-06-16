@@ -1,14 +1,12 @@
-
+// POSITIONAL ARGUMENTS
 const sample_rate = process.argv[2] || 8000;
-const sample_secs = process.argv[3] || 10;
-const wave_count = process.argv[4] || 1;
-const amplitude = parseFloat( process.argv[5] || 0.8 );
+const sample_secs = process.argv[3] || 1;
+const wave_count = process.argv[4] || 80;
+const amplitude = parseFloat( process.argv[5] || 0.45 );
 const output_mode = process.argv[6] || 'binary';
-
-
+// CREATE DATA
 const COUNT_SAMPLES = sample_rate * sample_secs;
 const SAMPLE_SIZE = 1;
-
 let buff = Buffer.alloc(SAMPLE_SIZE);
 let i_sample = 0;
 while(i_sample < COUNT_SAMPLES){
