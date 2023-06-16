@@ -22,7 +22,6 @@ const loop = () => {
     if(i_sample < COUNT_SAMPLES){
         setTimeout(loop, 0);
         let i_chuck = 0;
-
         while(i_chuck < chunk_bytes && i_sample < COUNT_SAMPLES){
             const a_sample = i_sample / COUNT_SAMPLES;
             const a_waves = a_sample * wave_count % 1;
