@@ -13,24 +13,23 @@ const buff = Buffer.alloc(1);
 let i_sample = 0;
 const count_sample = 8000;
 let to_high = false;
-
+let last_time = new Date();
 const loop = () => {
-
-    const t = setTimeout(loop, to_high ? 2000: 800);
-    while( i_sample < count_sample ){
+    const t = setTimeout(loop, to_high ? 6000: 950);
+    while( i_sample < count_sample){
         writeSample(buff, i_sample, count_sample, 10, 0.25);
         to_high = !process.stdout.write(buff);
         i_sample += 1;
     }
-
-console.warn(to_high);
-
     i_sample %= count_sample;
 };
 // drain event
 process.stdout.on('drain', () => {
-    process.stderr.write('We should be good now.\n');
-    //to_high = false;
+    const now = new Date();
+    const time = (now - last_time) / 1000 / 60;
+    last_time = now;
+    process.stderr.write('Needed to drain.\n');
+    process.stderr.write('Went ' + time.toFixed(2) + ' Minutes.\n\n');
 });
 
 loop();
