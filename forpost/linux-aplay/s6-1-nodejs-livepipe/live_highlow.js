@@ -15,7 +15,7 @@ let i_frame = 0;
 const count_sample = 8000;
 let to_high = false;
 let last_time = new Date();
-const ms_fast = 985;
+const ms_fast = 999;
 const ms_slow = 5000;
 const loop = () => {
     const t = setTimeout(loop, to_high ? ms_slow: ms_fast);
