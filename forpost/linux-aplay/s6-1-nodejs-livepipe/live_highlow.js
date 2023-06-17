@@ -15,10 +15,13 @@ const count_sample = 8000;
 let to_high = false;
 let last_time = new Date();
 const loop = () => {
-    const t = setTimeout(loop, to_high ? 6000: 950);
+    const t = setTimeout(loop, to_high ? 5000: 990);
     while( i_sample < count_sample){
         writeSample(buff, i_sample, count_sample, 10, 0.25);
         to_high = !process.stdout.write(buff);
+        if(to_high){
+            break;
+        }
         i_sample += 1;
     }
     i_sample %= count_sample;
