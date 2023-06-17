@@ -1,6 +1,5 @@
 // write a single sample to the given buffer
-const writeSample = (buff, i_sample = 0, count_sample = 8000, wave_count = 1, amplitude = 0.3) => {
-    const a_sample = i_sample / count_sample;
+const writeSample = (buff, a_sample = 0.5, wave_count = 1, amplitude = 0.3) => {
     const a_waves = a_sample * wave_count % 1;
     const n = Math.round( 127.5 - Math.sin( Math.PI * 2 * a_waves ) * (128 * amplitude) );
     buff.write( n.toString(16), 0, 'hex');
@@ -10,18 +9,25 @@ const writeSample = (buff, i_sample = 0, count_sample = 8000, wave_count = 1, am
 // LOOP
 //-------- ----------
 const buff = Buffer.alloc(1);
-const frame_count = 100;
+const frame_count = 60;
 let i_sample = 0;
 let i_frame = 0;
 const count_sample = 8000;
 let to_high = false;
 let last_time = new Date();
+const ms_fast = 985;
+const ms_slow = 5000;
 const loop = () => {
-    const t = setTimeout(loop, to_high ? 5000: 990);
-    const a_frame = i_frame / frame_count;
-    const a_wavecount = Math.sin( Math.PI * a_frame )
+    const t = setTimeout(loop, to_high ? ms_slow: ms_fast);
     while( i_sample < count_sample){
-        writeSample(buff, i_sample, count_sample, Math.floor(50 + 250 * a_wavecount), 0.4);
+        // alphas
+        const a_sample = i_sample / count_sample;
+        const a_framecount = (i_frame / frame_count);
+        const a3 = a_framecount;
+        const a_wavecount = Math.sin( Math.PI * a3 );
+        // write sample to buffer
+        const wave_count = Math.floor(75 + 25 * a_wavecount);
+        writeSample(buff, a_sample, wave_count, 0.6);
         to_high = !process.stdout.write(buff);
         if(to_high){
             break;
