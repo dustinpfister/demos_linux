@@ -43,8 +43,8 @@ process.stdout.on('drain', () => {
     const now = new Date();
     const time = (now - last_time) / 1000 / 60;
     last_time = now;
-    process.stderr.write('Needed to drain.\n');
+    process.stderr.write('\nNeeded to drain.\n');
     process.stderr.write('Went ' + time.toFixed(2) + ' Minutes.\n\n');
 });
-
+process.stderr.write('\nScript started: ' + last_time + ' .\n\n');
 loop();
